@@ -1,5 +1,12 @@
 {-# LANGUAGE GADTs, FlexibleInstances #-}
 {-# LANGUAGE RankNTypes #-}
+{-
+implementation of a set monad
+code copied from http://okmij.org/ftp/Haskell/set-monad.html
+with much thanks for the insightful article
+
+-}
+
 
 -- Various implementations of the Set monad
 

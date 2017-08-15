@@ -1,5 +1,11 @@
 {-# LANGUAGE MultiParamTypeClasses, FunctionalDependencies #-}
-import Control.Monad.Random
+{-
+implementation of a multi-armed bandit approach for searching game trees
+author: Nicholas Sieger
+status: very much under construction
+-}
+
+import Game
 
 
 class (Eq p)=>Game s m p | s -> m, s -> p where 
