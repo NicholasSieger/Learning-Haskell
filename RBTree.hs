@@ -1,3 +1,9 @@
+{-
+Implemntation of Red-Black trees
+following Chris Okasaki's Purely Functional Data Structures
+
+-}
+
 module RBTree (
     RBTree,
     empty,
